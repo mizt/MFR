@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E0012C74285A186F005972E6 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0012C73285A186F005972E6 /* Metal.framework */; };
 		E0012C76285A1875005972E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0012C75285A1875005972E6 /* QuartzCore.framework */; };
-		E008C08E2AC6558500AB94E4 /* ARFPPiPL.r in Rez */ = {isa = PBXBuildFile; fileRef = E008C08D2AC6558500AB94E4 /* ARFPPiPL.r */; };
+		E008C08E2AC6558500AB94E4 /* MFRPiPL.r in Rez */ = {isa = PBXBuildFile; fileRef = E008C08D2AC6558500AB94E4 /* MFRPiPL.r */; };
 		E008C0902AC6558900AB94E4 /* MFR.mm in Sources */ = {isa = PBXBuildFile; fileRef = E008C08F2AC6558900AB94E4 /* MFR.mm */; };
 		E008C0982AC6563200AB94E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E008C0972AC6563200AB94E4 /* Cocoa.framework */; };
 		E049B3E82AC65BDC007E4F98 /* Flip.metallib in Resources */ = {isa = PBXBuildFile; fileRef = E049B3E62AC65BDC007E4F98 /* Flip.metallib */; };
@@ -20,7 +20,7 @@
 		C4E618CC095A3CE80012CA3F /* MFR.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFR.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0012C73285A186F005972E6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		E0012C75285A1875005972E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E008C08D2AC6558500AB94E4 /* ARFPPiPL.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = ARFPPiPL.r; sourceTree = "<group>"; };
+		E008C08D2AC6558500AB94E4 /* MFRPiPL.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = MFRPiPL.r; sourceTree = "<group>"; };
 		E008C08F2AC6558900AB94E4 /* MFR.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MFR.mm; sourceTree = "<group>"; };
 		E008C0972AC6563200AB94E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E049B3E62AC65BDC007E4F98 /* Flip.metallib */ = {isa = PBXFileReference; lastKnownFileType = "archive.metal-library"; path = Flip.metallib; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				E008C08F2AC6558900AB94E4 /* MFR.mm */,
-				E008C08D2AC6558500AB94E4 /* ARFPPiPL.r */,
+				E008C08D2AC6558500AB94E4 /* MFRPiPL.r */,
 				E049B3E52AC65BDC007E4F98 /* shaders */,
 				C4E6188C095A3C800012CA3F /* Products */,
 				E0012C72285A186F005972E6 /* Frameworks */,
@@ -151,7 +151,7 @@
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E008C08E2AC6558500AB94E4 /* ARFPPiPL.r in Rez */,
+				E008C08E2AC6558500AB94E4 /* MFRPiPL.r in Rez */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
